@@ -1,2 +1,0 @@
-#!/bin/sh
-./ConsoleTestRunner ../BankTest/libBankTest.so
