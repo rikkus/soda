@@ -1,0 +1,41 @@
+<soda:Envelope
+  xmlns:soda="http://schemas.xmlsoap.org/soap/envelope/"
+  soda:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+
+  <soda:Header>
+
+    <dcop:Authorization
+      xmlns:dcop="http://developer.kde.org/dcop/"
+      soda:mustUnderstand="1">18300,BKuIltrgZ59j;I;9</dcop:Authorization>
+
+  </soda:Header>
+
+  <soda:Body>
+
+    <dcop:Call xmlns:dcop="http://developer.kde.org/dcop/">
+
+      <application>kdesktop</application>
+
+      <object>KBackgroundIface</object>
+
+      <method>
+
+        <name>setWallpaper</name>
+
+        <param>
+          <type>string</type>
+          <value>/home/rik/kde2.2.png</value>
+        </param>
+
+        <param>
+          <type>int</type>
+          <value>5</value>
+        </param>
+
+      </method>
+
+    </dcop:Call>
+
+  </soda:Body>
+
+</soda:Envelope>
