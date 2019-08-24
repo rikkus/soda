@@ -1,0 +1,2 @@
+#!/bin/sh
+./QtTestRunner ../BankTest/libBankTest.so

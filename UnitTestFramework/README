@@ -1,0 +1,16 @@
+= Rik's Unit Test Framework
+
+== Build
+
+qmake && make
+
+== Try
+
+cd ConsoleTestRunner && ./run
+
+cd QtTestRunner && ./run
+
+== Comments
+
+rik@kde.org
+
